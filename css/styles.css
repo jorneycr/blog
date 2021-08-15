@@ -76,29 +76,29 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-    .navegacion{
-        flex: 0 0 25rem;
-    }
-    .navegacion ul {
-        flex-direction: row;
-        justify-content: space-between;
-    }
+  .navegacion {
+    flex: 0 0 25rem;
+  }
+  .navegacion ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .navegacion ul li a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .logo-img {
   max-width: 20rem;
 }
 
-.header-contenido h1{
-    color: #008fd1;
-    font-size: 2rem;
-    text-transform: uppercase;
-    max-width: 25rem;
+.header-contenido h1 {
+  color: #008fd1;
+  font-size: 2rem;
+  text-transform: uppercase;
+  max-width: 25rem;
 }
 
 /* Contenido */
@@ -143,4 +143,121 @@ img {
   .entrada {
     flex: 0 1 calc(33% - 1rem);
   }
+}
+/*categoria iconos*/
+
+.categoria ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+}
+
+.categoria ul li {
+  flex: 1 0 calc(50%);
+  padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .categoria ul li {
+    flex: 1;
+  }
+}
+
+.categoria ul li:nth-child(1) {
+  background-color: #008fd1;
+}
+
+.categoria ul li:nth-child(2) {
+  background-color: #db008d;
+}
+
+.categoria ul li:nth-child(3) {
+  background-color: #9898d1;
+}
+
+.categoria ul li:nth-child(4) {
+  background-color: #eca300;
+}
+
+.categoria ul li a {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.categoria ul li i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/*footer*/
+.footer {
+  background-color: #008fd1;
+  padding-top: 1rem;
+  color: white;
+}
+
+.footer h2 {
+  text-transform: uppercase;
+}
+
+.footer .nosotros p{
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+@media screen and (min-width: 768px) {
+  .footer .contenedor {
+    display: flex;
+  }
+  .footer .caja {
+    flex: 1;
+  }
+}
+
+.copyright {
+  background-color: #004d70;
+  margin: 2rem 0 0 0;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Redes Sociales */
+
+.sociales ul li span {
+  display: none;
+}
+.sociales ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .sociales ul {
+    justify-content: flex-end;
+  }
+}
+.sociales ul li {
+  margin-right: 0.5rem;
+}
+.sociales ul li a {
+  text-decoration: none;
+  margin-right: 1.5rem;
+}
+.sociales ul li a:before {
+  font-family: "Font Awesome 5 Brands";
+  color: white;
+  font-size: 2rem;
+}
+.sociales ul li a[href*="facebook.com"]::before {
+  content: "\f39e";
+}
+.sociales ul li a[href*="youtube.com"]::before {
+  content: "\f431";
+}
+.sociales ul li a[href*="instagram.com"]::before {
+  content: "\f16d";
 }
