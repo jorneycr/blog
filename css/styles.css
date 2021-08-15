@@ -31,7 +31,7 @@ img {
 
 /*Header*/
 .hero {
-  background-image: url(../img/hero.jpg);
+  background-image: url(../img/hero.png);
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
@@ -48,7 +48,7 @@ img {
 
 .barra {
   position: absolute;
-  background-color: #008fd1;
+  background-color: rgb(31, 153, 31);
   width: 100%;
   top: 0;
   padding: 1rem 0;
@@ -95,7 +95,7 @@ img {
 }
 
 .header-contenido h1 {
-  color: #008fd1;
+  color: white;
   font-size: 2rem;
   text-transform: uppercase;
   max-width: 25rem;
@@ -117,10 +117,10 @@ img {
   line-height: 1.4rem;
 }
 .contenido span {
-  color: #db008d;
+  color: #004d70;
 }
 .boton {
-  background-color: #008fd1;
+  background-color: rgb(31, 153, 31);
   color: white;
   padding: 0.6rem 2rem;
   margin-top: 1rem;
@@ -165,11 +165,11 @@ img {
 }
 
 .categoria ul li:nth-child(1) {
-  background-color: #008fd1;
+  background-color: rgb(31, 153, 31);
 }
 
 .categoria ul li:nth-child(2) {
-  background-color: #db008d;
+  background-color: #004d70;
 }
 
 .categoria ul li:nth-child(3) {
@@ -195,7 +195,7 @@ img {
 
 /*footer*/
 .footer {
-  background-color: #008fd1;
+  background-color: rgb(31, 153, 31);
   padding-top: 1rem;
   color: white;
 }
